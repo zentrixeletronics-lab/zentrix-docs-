@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  background: #F1EFE8;
+  color: #042C53;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 240px;
+  background: #042C53;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.sidebar a:hover {
+  color: white;
+}
+
+/* CONTENT */
+.content {
+  margin-left: 260px;
+  padding: 40px;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
